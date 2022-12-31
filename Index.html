@@ -29,7 +29,7 @@
         }
 
         .left img {
-            width: 133px;
+            width: 105px;
             filter: invert(100%);
             text-align: center;
         }
@@ -39,18 +39,18 @@
             display: block;
             width: 38%;
             margin: 20px auto;
-            border: 2px solid green;
+            /* border: 2px solid green; */
             top: 20px;
 
 
         }
 
         .right {
-            border: 2px solid orange;
+            /* border: 2px solid orange; */
 
             position: absolute;
-            right: 0px;
-            top: 20px;
+            right: 11px;
+            top: 29px;
             display: inline-block
         }
 
@@ -86,7 +86,7 @@
             background: none;
             color: white;
             padding: 4px 14px;
-            border: 2px solid gray;
+            /* border: 2px solid gray; */
             border-radius: 10px;
             cursor: pointer;
             font-family: 'Balsamiq Sans', cursive;
@@ -102,12 +102,14 @@
 
         .container {
             font-family: 'Balsamiq Sans', cursive;
-            border: 2px solid green;
+            border: 5px solid rgb(139, 227, 204);
             margin: 106px 64px;
             padding: 44px;
             width: 35%;
             border-radius: 24px;
             display: inline-block;
+            align-items: center;
+            text-align: center;
         }
 
         .container input {
@@ -120,12 +122,15 @@
             display: inline-block;
             border: 2px solid orange;
         }
-        .container h1{
+
+        .container h1 {
             text-align: center;
         }
 
-        .container .sub-btn{
+        .container button {
             display: inline-block;
+            width: 85%;
+            margin: 20px auto;
 
         }
     </style>
@@ -139,7 +144,7 @@
             <img src="img/logo.png" alt="">
 
 
-            <div style="line-height: 12px; font-size: 22px;">Rashu Fitness</div>
+            <div style="line-height: 12px; font-size: 16px;">Rashu Fitness</div>
 
         </div>
 
@@ -158,6 +163,7 @@
         <div class="right">
             <!-- right box for button -->
             <button class="btn">Call Us Now</button>
+
             <button class="btn">Email Us</button>
 
         </div>
@@ -169,39 +175,37 @@
         <form action="noaction.php">
 
 
-            <label for="name">Name:- </label>
+            <label for="name"> </label>
             <input type="text" name="user_name" id="name" placeholder="Enter Your Name">
 
             <br>
 
 
-            <label for="name">Name:- </label>
-            <input type="text" name="user_name" id="name">
+            <label for="age"> </label>
+            <input type="number" name="user_age" id="age" placeholder="Enter Your Age">
 
 
             <br>
 
-
-            <label for="name">Name:- </label>
-            <input type="text" name="user_name" id="name">
-
-
-
+            <label for="mono"> </label>
+            <input type="number" name="user_Mobile_number" id="mono" placeholder="Enter Your Mobile Number">
 
             <br>
-            <label for="name">Name:- </label>
-            <input type="text" name="user_name" id="name">
-
-
-
+            <label for="mail"></label>
+            <input type="text" name="user_mail" id="mail" placeholder="Enter Your  Email Id">
 
             <br>
-            <label for="name">Name:- </label>
-            <input type="text" name="user_name" id="name">
+            <label for="locality"></label>
+            <input type="text" name="user_locality" id="locality" placeholder="Enter Your  Locality">
 
-            <button class="sub-btn">
-                Submit
-            </button>
+            <br>
+
+            <label for="gender">Gender :- Male </label>
+            <input type="radio" name="user_gender" id="gender"><label for="gender"> Female </label>
+            <input type="radio" name="user_gender" id="gender">
+
+
+            <button class="btn">Submit</button>
         </form>
     </div>
 

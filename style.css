@@ -1,0 +1,125 @@
+
+        body {
+            font-family: 'Balsamiq Sans', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/master1.jpg');
+            height: 1000px;
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            display: inline-block
+        }
+
+        .left img {
+            width: 105px;
+            filter: invert(100%);
+            text-align: center;
+        }
+
+        .mid {
+
+            display: block;
+            width: 38%;
+            margin: 20px auto;
+            /* border: 2px solid green; */
+            top: 20px;
+
+
+        }
+
+        .right {
+            /* border: 2px solid orange; */
+
+            position: absolute;
+            right: 11px;
+            top: 29px;
+            display: inline-block
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            color: aliceblue;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(5, 5, 5);
+            /* background-color: black; */
+            /* border: 2px solid beige;  */
+            padding: 3px;
+            border-radius: 10px;
+        }
+
+        .btn {
+            font-size: 18px;
+            background: none;
+            color: white;
+            padding: 4px 14px;
+            /* border: 2px solid gray; */
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: 'Balsamiq Sans', cursive;
+
+        }
+
+        .btn:hover {
+
+            background-color: black;
+            color: gray;
+            text-decoration: underline;
+        }
+
+        .container {
+            font-family: 'Balsamiq Sans', cursive;
+            border: 5px solid rgb(139, 227, 204);
+            margin: 106px 64px;
+            padding: 44px;
+            width: 35%;
+            border-radius: 24px;
+            display: inline-block;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container input {
+            font-family: 'Balsamiq Sans', cursive;
+            text-align: center;
+            font-size: 25px;
+            margin: 7px;
+            padding: 4px;
+
+            display: inline-block;
+            border: 2px solid orange;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: inline-block;
+            width: 85%;
+            margin: 20px auto;
+
+        }
+ 
